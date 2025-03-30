@@ -1,0 +1,158 @@
+.form__group {
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;  
+    align-items: flex-start;  
+}
+
+input.error {
+    border: 2px solid red;
+    background-color: #fdd;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 10px;  
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;  
+}
+.card__title {
+    font-size: 24px !important;
+    font-weight: 700  !important;
+    margin-bottom: 20px !important;
+    text-align: center !important;
+    color: #333 !important;
+}
+.card__content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.card__content > * {
+    margin-bottom: 10px;
+}
+.card__content > *:last-child {
+    margin-bottom: 0;
+}
+.card__content > label {
+    font-size: 16px;
+    font-weight: 700;
+}
+.card__content > input {
+    padding: 10px !important;
+    border: 1px solid #ccc !important;
+    border-radius: 5px !important;
+    width: 100% !important;
+    font-size: 16px !important;
+
+}
+.card__content > button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+.card__content > button:hover {
+    background-color: #0056b3;
+}
+.card__content > button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.card__content > button:disabled:hover {
+    background-color: #ccc;
+}
+.card__content > button:active {
+    background-color: #0056b3;
+}
+.card__content > button:focus {
+    outline: none;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.form__input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #670808 !important;
+}
+
+.form__button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    background-color: #3b5f82;
+    color: #fff;
+    cursor: pointer;
+}
+
+ .form__date{
+    width: 100px;
+    color: #000;
+ }
+
+ .book-form__title{
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+ }
+
+ .date-input{
+    width: 100px; 
+ }
+
+ .alertCustom {
+    position: fixed;
+    top: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 90%; 
+    max-width: 600px; 
+    z-index: 1300; 
+    margin-bottom: 16px; 
+  }
+  
+  @media (min-width: 600px) {
+    .alertCustom {
+      width: 70%; 
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .alertCustom {
+      width: 50%; 
+    }
+  }

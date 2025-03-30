@@ -1,0 +1,146 @@
+.book-list-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    position: relative !important;
+    margin-left: 250px; 
+    padding: 20px;
+    flex-grow: 1; 
+    width: calc(100% - 250px); 
+    box-sizing: border-box; 
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        position: relative; 
+        width: 100%;
+        height: auto; 
+    }
+
+    
+    .book-list-container {
+        margin-left: 0; 
+        padding-left: 10px; 
+        width: 100%; 
+    }
+}
+
+
+.book-list {
+    margin-top: 20px  !important;
+    width: 100%  !important;
+    padding: 0  !important;
+    list-style: none  !important;
+}
+
+.book-list-item {
+    display: flex  !important;
+    justify-content: space-between  !important;
+    align-items: center  !important;
+    padding: 10px  !important;
+    border-bottom: 1px solid #ccc  !important;
+    width: 100%  !important;
+    border-radius: 5px  !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)  !important;
+    margin-bottom: 10px  !important;
+}
+
+.book-list-item > div {
+    display: flex  !important;
+    align-items: center  !important;
+}
+
+.item-text {
+    margin-left: 10px !important;
+    color: #000 !important;
+}
+
+.list-title {
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.view_icon {
+    cursor: pointer;
+    background-color: #333 !important;
+    color: white !important;
+    font-size: 20px;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+
+.delete_icon {
+    cursor: pointer;
+    background-color: #df453e !important;
+    color: white !important;
+    font-size: 20px;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+
+.add-book-link {
+    margin-top: 20px;
+}
+
+.item-icon{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100px !important;
+}
+
+.item-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar{
+    font-size: 20px;
+}
+
+.css-18k2bs-MuiAvatar-root{
+    background-color: #333 !important;
+}
+
+.form__date .MuiInputBase-input {
+    color: transparent !important;
+}
+
+.form__date .MuiInputBase-input::-webkit-calendar-picker-indicator {
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form__date .MuiInputBase-input::-webkit-inner-spin-button {
+    display: none;
+}
+
+.form__date .MuiInputBase-input::-webkit-clear-button {
+    display: none;
+}
+
+.form__date .MuiInputBase-input::-webkit-datetime-edit-fields-wrapper {
+    color: #000;
+}
+
+.form__date .MuiInputBase-input::-webkit-datetime-edit-text {
+    color: #000;
+}
+
+
+.edit_icon{
+    cursor: pointer;
+    background-color: #007bff !important;
+    color: white !important;
+    font-size: 20px;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}

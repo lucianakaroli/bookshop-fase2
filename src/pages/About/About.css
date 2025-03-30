@@ -1,0 +1,35 @@
+
+.about-page{
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.about-page h1{
+    font-size: 24px;
+    color: #333;
+}
+
+.about-page p{
+    font-size: 16px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.about-page a{
+    color: #333;
+    text-decoration: none;
+}
+.about_title{
+    color: #333;
+}
+
+.about-page a:hover{
+    color: #007bff;
+}
+.home-page{
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+    color: #333;
+}

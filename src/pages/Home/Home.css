@@ -1,0 +1,11 @@
+.home-page{
+    margin-left: 250px;
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.home-page h1{
+    font-size: 24px;
+    color: #333;
+}
